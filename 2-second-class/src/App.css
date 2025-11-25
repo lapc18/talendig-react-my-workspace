@@ -1,0 +1,23 @@
+#todo-form {
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+#todo-form input {
+    padding: 4px;
+    margin: 0 4px;
+    width: 60%;
+    height: 30px;
+}
+
+#todo-form button {
+    padding: 10px;
+    width: 26%;
+    height: 40px;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}

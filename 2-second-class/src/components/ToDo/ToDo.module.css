@@ -1,0 +1,33 @@
+.todo_item_container {
+    border-radius: 8px;
+    border: 1px #fff solid;
+    width: 90%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.todo_item__status {
+    border-left: 10px yellow solid;
+}
+
+.done {
+    border-left: 2px green solid;
+}
+
+.in_progress {
+    border-left: 2px blue solid;
+}
+
+.deleted {
+    border-left: 2px red solid;
+}
+
+.todo_item__text {
+    font-weight: 800;
+    color: #fff;
+}
+

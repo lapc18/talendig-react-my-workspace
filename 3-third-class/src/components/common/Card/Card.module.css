@@ -1,0 +1,17 @@
+.card {
+    border-left: 6px solid var(--color-primary);
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: var(--color-dar);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    animation: transform 2s ease;
+}
