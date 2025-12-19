@@ -23,9 +23,16 @@ const App: FC = () => {
   // {id: string, name: string, email: string, phone: string, website: string}
   // BE HAPPY
 
+
+  /*
+      App Component: hacemos la llamada a la API para obtener los TODOS
+        - useEffect: se encarga de hacer la llamada al API 1 sola vez cuando el componente se monta
+         ToDoList Component: renderiza la lista de todos que vienen del API JSON Placeholder
+             ToDoItem Component: renderiza cada todo individualmente
+  */
+
   // useEffect
   useEffect(() => {
-
     const apiCall = async () => {
       const response = await fetch('https://jsonplaceholder.typicode.com/todos');
       const data = await response.json();

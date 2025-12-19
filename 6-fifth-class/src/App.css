@@ -1,0 +1,40 @@
+#root {
+  width: 100dvh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#users-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+
+#user-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  min-width: 150px;
+}
+
+#user-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+#data-item {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
